@@ -15,7 +15,7 @@ fun iniciarMaquinaDeBitllets(scan:Scanner) {
     val zones = seleccionarZones(scan)
     val quantitat = seleccionarQuantitat(scan)
     val preuFinal = calcularPreuFinal(tipusBitllet, zones, quantitat)
-    val canvi = processarPagament(preuFinal)
+    val canvi = processarPagament(scan,preuFinal)
     scan.nextLine()
     println("Vols tiquet? (si/no)")
     var opcio=scan.nextLine()
@@ -64,12 +64,12 @@ fun calcularPreuFinal(tipus: String, zones: Int, quantitat: Int): Double {
     return round(preuBase * multiplicador * quantitat * 100) / 100
 }
 
-fun processarPagament(preuFinal: Double): Double {
+fun processarPagament(scan: Scanner,preuFinal: Double): Double {
     val monedes = listOf(0.05, 0.10, 0.20, 0.50, 1.00, 2.00, 5.00, 10.00, 20.00, 50.00)
     var totalIntroduit = 0.0
     println("Introdueix diners per un total de $preuFinal€:")
     while (totalIntroduit < preuFinal) {
-        val entrada = readln().toDoubleOrNull()
+        val entrada = scan.next().toDoubleOrNull()
         if (entrada != null && entrada in monedes) totalIntroduit += entrada
     }
     return round((totalIntroduit - preuFinal) * 100) / 100
