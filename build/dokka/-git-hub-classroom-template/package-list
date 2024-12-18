@@ -1,0 +1,28 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-git-hub-classroom-template/[root]/index.html
+$dokka.location:/Maquina_BilletesKt///PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/index.html
+$dokka.location:/Maquina_BilletesKt/calcularPreuFinal/#kotlin.String#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/calcular-preu-final.html
+$dokka.location:/Maquina_BilletesKt/comprovarContrasenya/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/comprovar-contrasenya.html
+$dokka.location:/Maquina_BilletesKt/iniciarMaquinaDeBitllets/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/iniciar-maquina-de-bitllets.html
+$dokka.location:/Maquina_BilletesKt/iniciarScan/#/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/iniciar-scan.html
+$dokka.location:/Maquina_BilletesKt/main/#/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/main.html
+$dokka.location:/Maquina_BilletesKt/mostrarTiquet/#kotlin.String#kotlin.Int#kotlin.Int#kotlin.Double#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/mostrar-tiquet.html
+$dokka.location:/Maquina_BilletesKt/processarPagament/#java.util.Scanner#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/processar-pagament.html
+$dokka.location:/Maquina_BilletesKt/seleccionarQuantitat/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/seleccionar-quantitat.html
+$dokka.location:/Maquina_BilletesKt/seleccionarTipusBitllet/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/seleccionar-tipus-bitllet.html
+$dokka.location:/Maquina_BilletesKt/seleccionarZones/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/seleccionar-zones.html
+$dokka.location:/Maquina_BilletesKt/volTiquet/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/[root]/-maquina_-billetes-kt/vol-tiquet.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/readSomething/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-something.html
+interfaces
+models
+utilities
+
